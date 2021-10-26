@@ -1,0 +1,164 @@
+/*
+Main Color: Dark Blue: #00154f
+Second Color: light orange: #f2bc94
+Third Color: Goldish: #f4af1b
+
+*/
+
+
+
+.navBar{
+    background: #00154f;
+    color: #f2bc94;
+    height: 150px;
+    padding-left: 18px;
+    border-radius: 5px;
+    border: 5px solid #f4af1b;
+}
+
+.navBar ul, .navBar li{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.navBar ul{
+    width: 100%;
+}
+.navBar li{
+    border: solid 2px;
+    margin: 3px;
+    float:right;
+    display: inline;
+    position: relative;
+    border-radius: 10px;
+}
+.navBar a{
+    float: right;
+    display: block;
+    line-height: 80px;
+    color: #f4af1b;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin: 25px;
+    border: 30px;
+    padding: 5px;
+    
+}
+.navBar li a:hover{
+    opacity: 50%;
+    background-color: #f2bc94;
+    border-radius: 10px;
+   
+}
+.navBar h1{
+    line-height: 90px;
+    position: relative;
+    float: left;
+    font-size: 50px;
+    font-style:unset;
+    color: #f4af1b;
+    margin: 5px;
+    border: 15px;
+    padding: 10px;
+    border-style:dotted;
+    border-color: #f2bc94;
+    font-weight:900;
+    text-decoration: underline; 
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f2bc94;
+    color: #f4af1b;
+}
+h2{
+    text-align: center;
+    display: block;
+    background-color: #00154f;
+    margin: 50px;
+    border: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    
+}
+img{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    position: absolute;
+    top: 300px;
+    right: 120px;
+    margin: 50px;
+    border: 20px solid #00154f;
+    padding: 1px;
+    border-radius: 20px;
+    
+}
+div{
+    width: 50%;
+    display: block;
+    background-color: #00154f;
+    color: #f4af1b;
+    margin: 50px;
+    border: 20px;
+    padding: 8px;
+    border-radius: 20px;  
+}
+blockquote{
+    color: #00154f;
+    position: absolute;
+    top: 900px;
+    right: 40px;
+}
+h3{
+    display: block;
+    background-color: #00154f;
+    width: 40%;
+    margin: 50px;
+    border: 20px;
+    padding: 8px;
+    border-radius: 20px;
+}
+a{
+    color: rgb(0, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    position: absolute;
+    top: 1200px;
+    width: 1875px;
+    height: 2.5rem;
+    background-color: #00154f;
+    color: #f2bc94;
+    height: 100px;
+    padding-left: 18px;
+    border-radius: 0px;
+    border: 4px solid #f4af1b;
+}
+footer p{
+    float: right;
+    margin: 20px;
+}
+.copyR{
+float: left;
+margin: 20px;
+}
+.emailA{
+    color: rgb(2, 255, 255);
+}
+
